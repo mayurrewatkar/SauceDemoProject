@@ -1,0 +1,363 @@
+<html>
+<head>
+<title>TestNG:  High Level Test(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>High Level Test(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 25 20:21:28 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (151 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart.setUp()'><b>setUp</b><br>Test class: com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1284601713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1284601713'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart@d5b810e</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart.setUp()'><b>setUp</b><br>Test class: com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1109701158", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1109701158'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart@43dac38f</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality.setUp()'><b>setUp</b><br>Test class: com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace854617912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace854617912'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality@2ed2d9cb</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality.setUp()'><b>setUp</b><br>Test class: com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace190438068", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace190438068'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality@71def8f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality.teardown()'><b>teardown</b><br>Test class: com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality</td>
+<td></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality@2ed2d9cb</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality.teardown()'><b>teardown</b><br>Test class: com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality</td>
+<td></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality@71def8f8</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart.teardown()'><b>teardown</b><br>Test class: com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart</td>
+<td></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart@d5b810e</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart.teardown()'><b>teardown</b><br>Test class: com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart</td>
+<td></td>
+<td>-1661439088</td>
+<td>com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart@43dac38f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart.verifymultipleproductaddtocart()'><b>verifymultipleproductaddtocart</b><br>Test class: com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace698239965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace698239965'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.sauceDemo.TestClasses.TC003PracticeTestNGMultipleProductAddtoCart@43dac38f</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart.verifysingleproductaddtocart()'><b>verifysingleproductaddtocart</b><br>Test class: com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace662497114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace662497114'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.sauceDemo.TestClasses.TC_002PracticeTestNGSingleProductAddtoCart@d5b810e</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality.logoutfunctionality()'><b>logoutfunctionality</b><br>Test class: com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace974714671", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace974714671'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.sauceDemo.TestClasses.TC_004TestNGLogoutFunctionality@71def8f8</td></tr>
+<tr>
+<td title='com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality.loginfunctionality()'><b>loginfunctionality</b><br>Test class: com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace59300528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace59300528'><pre>org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\USER\eclipse-workspace\Sauce Demo Project\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.sauceDemo.TestClasses.TC_001PracticeTestNGLoginFunctionality@2ed2d9cb</td></tr>
+</table><p>
+</body>
+</html>

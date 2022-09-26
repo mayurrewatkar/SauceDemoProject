@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/async-http-client-2.12.3.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/async-http-client-netty-utils-2.12.3.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/auto-common-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/auto-service-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/auto-service-annotations-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/byte-buddy-1.12.10.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/checker-qual-3.12.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/error_prone_annotations-2.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/failsafe-3.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/guava-31.1-jre.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/jcommander-1.82.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/jtoml-2.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-buffer-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-codec-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-codec-http-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-codec-socks-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-common-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-handler-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-handler-proxy-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-reactive-streams-2.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-resolver-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-transport-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-transport-classes-epoll-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-transport-classes-kqueue-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-transport-native-epoll-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-transport-native-kqueue-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/netty-transport-native-unix-common-4.1.78.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-api-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-context-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-exporter-logging-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-common-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-logs-1.15.0-alpha.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-metrics-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-sdk-trace-1.15.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/opentelemetry-semconv-1.15.0-alpha.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/reactive-streams-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-api-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-api-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-chrome-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-chrome-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-chromium-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-chromium-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v85-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v85-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v101-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v101-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v102-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v102-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v103-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-devtools-v103-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-edge-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-edge-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-firefox-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-firefox-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-http-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-http-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-ie-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-ie-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-java-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-java-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-json-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-json-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-opera-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-opera-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-remote-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-remote-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-safari-driver-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-safari-driver-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-support-4.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/selenium-support-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Automation/Main Files/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
